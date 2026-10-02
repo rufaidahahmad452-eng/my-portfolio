@@ -37,9 +37,6 @@
 
     background: #f8f8fb;
 }
-.herocontact {
-    max-width: 650px;
-}
 .eyebrow {
     margin-bottom: 20px;
     color: #7566a8;
@@ -70,10 +67,16 @@
     font-size: 17px;
     line-height: 1.7;
 }
+.herocontent {
+    max-width: 650px;
+    width: 100%;
+}
+
 .herobutton {
     display: flex;
     align-items: center;
     gap: 14px;
+    margin-top: 24px;
 }
 .primarybutton , .secondarybutton {
     display: inline-flex;

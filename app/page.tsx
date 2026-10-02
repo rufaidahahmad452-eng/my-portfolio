@@ -22,11 +22,12 @@ export default function Home() {
           <h2>Frontend Developer</h2>
           <p className={styles.herotext}>
             I build modern and responsive websites using React, Next.js,TypeScript, and CSS.</p>
-        </div>
-        <div className={styles.herobutton}>
+            <div className={styles.herobutton}>
           <a href="#projects" className={styles.primarybutton}>View My Work</a>
           <a href="#contact" className={styles.secondarybutton}>Contact Me</a>
         </div>
+        </div>
+        
       </section>
       <section id="about" className={styles.about}>
         <div className={styles.aboutleft}>
