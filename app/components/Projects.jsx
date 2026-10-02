@@ -16,10 +16,7 @@ const projects = [
       technologies: ["Next.js", "React", "TypeScript", "CSS", "Testing"],image: "/projects/luffy.jpeg",
       link: "https://luffy-donuts.vercel.app/", },
 
-    { title: "Portfolio Website",
-      description: "My personal portfolio website where I showcase my skills and projects.",
-      technologies: ["Next.js", "React", "CSS"],
-      link: "#", },
+    
     
 ];
 
