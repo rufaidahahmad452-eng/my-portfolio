@@ -1,0 +1,257 @@
+.navbar {
+    height: 80px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid #eeeeee;
+}
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #17172f;
+    cursor: pointer;
+}
+.navLinks {
+    display: flex;
+    gap: 32px;
+}
+.navLinks a{
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 15px;
+}
+.navLinks a:hover{
+    color: #6d5b97;
+}
+
+.hero {
+    min-height: calc(100vh - 80px);
+    padding: 80px 8%;
+    align-items: center;
+    background: #f8f8fb;
+}
+.herocontact {
+    max-width: 650px;
+}
+.eyebrow {
+    margin-bottom: 20px;
+    color: #7566a8;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.hero h1 {
+    margin: 0;
+    font-size: clamp(55px, 8vw, 90px);
+    line-height: 0.95;
+    letter-spacing: -4px;
+    color: #17172f;
+}
+.hero h1 span{
+    display: block;
+    color: #7566a8;
+}
+.hero h2 {
+    margin: 30px 0 15px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #17172f;
+}
+.herotext {
+    max-width: 550px;
+    color: #666675;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.herobutton {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.primarybutton , .secondarybutton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 140px;
+    height: 40px;
+    padding: 0 24px;
+
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.primarybutton {
+    background: #7566a8;
+    color: white;
+    border: 1px solid #5b4b7d;
+}
+.primarybutton:hover {
+    background: #4d406b;
+    border-color: #4d406b;
+    transform: translateY(-2px);
+}
+.secondarybutton {
+    background: white;
+    border: 1px solid #5b4b7d;
+}
+.secondarybutton:hover {
+    background: #4d406b;
+    border-color: #4d406b;
+    color: white;
+    transform: translateY(-2px);
+
+}
+
+.about {
+    min-height: 290px;
+    padding: 55px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    background: #ffffff;
+}
+
+.aboutleft {
+    max-width: 550px;
+}
+.sectionlabel {
+    margin: 0 0 12px;
+    color: #7566a8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.aboutleft h2 {
+    margin: 0 0 18px;
+    color: #17172f;
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: -0.8px;
+}
+.abouttext {
+    margin: 0;
+    max-width: 500px;
+    color: #666675;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.aboutRight {
+    padding-left: 55px;
+    border-left: 1px solid #e5e5e9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.infoitem {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.infoicon {
+    width: 30px;
+    color: #7566a8;
+    font-size: 28px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+.infoitem h3{
+    margin: 0 0 5px;
+    color: #292942;
+    font-size: 14px;
+    font-weight: 600;
+}
+.infoitem p {
+    margin: 0;
+    color: #777789;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 65px;
+    padding: 0 6%;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .navLinks {
+    gap: 15px;
+  }
+
+  .navLinks a {
+    font-size: 12px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 60px 6%;
+  }
+
+  .herocontact {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+    letter-spacing: -2px;
+  }
+
+  .hero h2 {
+    font-size: 23px;
+    margin-top: 25px;
+  }
+
+  .herotext {
+    font-size: 15px;
+  }
+
+  .herobutton {
+    flex-wrap: wrap;
+  }
+
+  .primarybutton,
+  .secondarybutton {
+    min-width: 120px;
+    padding: 0 18px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 45px 6%;
+  }
+
+  .aboutRight {
+    padding-left: 0;
+    padding-top: 25px;
+    border-left: none;
+    border-top: 1px solid #e5e5e9;
+  }
+
+  .aboutleft h2 {
+    font-size: 25px;
+  }
+
+  .abouttext {
+    font-size: 14px;
+  }
+
+  .infoitem {
+    gap: 14px;
+  }
+
+  .infoicon {
+    width: 25px;
+    font-size: 24px;
+  }
+}
