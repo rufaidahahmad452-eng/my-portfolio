@@ -33,13 +33,6 @@ const skillGroups = [
         ],
     },
 
-    { title: "Programming", skills: [
-            { name: "Python", icon: SiPython, color: "#3776AB", },
-            { name: "C", icon: SiC, color: "#A8B9CC", },
-            { name: "C++", icon: SiCplusplus, color: "#00599C", },
-            { name: "Java", icon: FaJava, color: "#ED8B00",},
-        ],
-    },
 ];
 
 export default function Skills() {

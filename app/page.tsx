@@ -41,10 +41,10 @@ export default function Home() {
       <section id="about" className={styles.about}>
         <div className={styles.aboutleft}>
           <p className={styles.sectionlabel}>ABOUT ME</p>
-          <h2>Building interfaces <br/>I enjoy creating</h2>
+          <h2>Building interfaces <br/></h2>
           <p className={styles.abouttext}>
-            I’m a Frontend Developer interested in creating clean, responsive, and user-friendly interfaces. I enjoy working
-            with React and TypeScript and I’m continuously improving my frontend skills by building real projects.
+            I'm a 3rd-year IT student and Frontend Developer focused on building responsive web applications with React, Next.js, and TypeScript. I enjoy turning ideas into practical interfaces and working with APIs, testing, 
+            and modern frontend tools. I'm currently looking for internship or junior opportunities where I can contribute to real products and grow as a developer.
           </p>
         </div>
         <div className={styles.aboutRight}>

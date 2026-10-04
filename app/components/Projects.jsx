@@ -3,12 +3,7 @@ import { ExternalLink } from "lucide-react";
 import styles from "./Projects.module.css";
 
 const projects = [
-    {   title: "Roro TV",
-        description:"A movie and TV shows discovery application built with React, TypeScript and the TMDB API, with dynamic routing, favorites, watchlist, loading/error states and reusable components.",
-        technologies: ["React", "TypeScript", "TMDB API"], image: "/projects/roro-tv.jpeg",
-        demo: "https://rufaidahahmad452-eng.github.io/RORO-TV/",
-        github: "https://github.com/rufaidahahmad452-eng/RORO-TV",},
-
+   
     {   title: "Roro TV 2",
         description: "A modern and responsive movie and TV shows platform built with React and TypeScript, integrated with the TMDB API to provide dynamic movie data. The application allows users to explore and discover movies and TV shows through a clean and intuitive interface, with a focus on responsive design, reusable components, and smooth user experience.",
         technologies: ["React", "TypeScript", "CSS", "TMDB API"], image: "/projects/roro-tv-2.jpeg",
@@ -29,6 +24,13 @@ const projects = [
         demo: "https://my-portfolio-sigma-sandy-83.vercel.app/",
         github: "https://github.com/rufaidahahmad452-eng/my-portfolio",
     },
+    
+     {   title: "Roro TV",
+        description:"A movie and TV shows discovery application built with React, TypeScript and the TMDB API, with dynamic routing, favorites, watchlist, loading/error states and reusable components.",
+        technologies: ["React", "TypeScript", "TMDB API"], image: "/projects/roro-tv.jpeg",
+        demo: "https://rufaidahahmad452-eng.github.io/RORO-TV/",
+        github: "https://github.com/rufaidahahmad452-eng/RORO-TV",},
+
 ];
 
 export default function Projects() {
