@@ -2,7 +2,7 @@
 import styles from "./Currently.module.css";
 
 const learningItems = [ 
-    "Backend for Frontend", "AI for Web", "Data Structures & Algorithms","Backend Fundamentals",
+    "AI for Web", "Data Structures & Algorithms","Backend Fundamentals",
 ];
 
 export default function CurrentLearning() {

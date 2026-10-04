@@ -27,7 +27,7 @@ const skillGroups = [
         ],
     },
 
-    { title: "Backend / Data", skills: [
+    { title: "APIs / Data", skills: [
             { name: "REST APIs", icon: FaCode, color: "#7566A8", },
             { name: "SQL", icon: SiMysql, color: "#4479A1", },
         ],

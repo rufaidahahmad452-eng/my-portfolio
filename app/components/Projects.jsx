@@ -24,12 +24,6 @@ const projects = [
         demo: "https://my-portfolio-sigma-sandy-83.vercel.app/",
         github: "https://github.com/rufaidahahmad452-eng/my-portfolio",
     },
-    
-     {   title: "Roro TV",
-        description:"A movie and TV shows discovery application built with React, TypeScript and the TMDB API, with dynamic routing, favorites, watchlist, loading/error states and reusable components.",
-        technologies: ["React", "TypeScript", "TMDB API"], image: "/projects/roro-tv.jpeg",
-        demo: "https://rufaidahahmad452-eng.github.io/RORO-TV/",
-        github: "https://github.com/rufaidahahmad452-eng/RORO-TV",},
 
 ];
 
