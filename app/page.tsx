@@ -1,7 +1,9 @@
-import { GraduationCap, Heart, MapPin } from "lucide-react";
+import { GraduationCap, Heart, MapPin, Mail } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import styles from"./page.module.css";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Currently from "./components/Currently";
 import Contact from "./components/Contact";
 export default function Home() {
   return (
@@ -15,20 +17,27 @@ export default function Home() {
           <a href="#contact">Contact</a>
         </div>
       </nav>
-      <section id="home" className={styles.hero}>
-        <div className={styles.herocontent}>
-          <p className={styles.eyebrow}>HELLO, I'M</p>
-          <h1>Rufaidah <span>Ahmad</span></h1>
-          <h2>Frontend Developer</h2>
-          <p className={styles.herotext}>
-            I build modern and responsive websites using React, Next.js,TypeScript, and CSS.</p>
-            <div className={styles.herobutton}>
-          <a href="#projects" className={styles.primarybutton}>View My Work</a>
-          <a href="#contact" className={styles.secondarybutton}>Contact Me</a>
+
+      <section id="hero" className={styles.hero}>
+        <div className={styles.heroContent}>
+          <div className={styles.heroText}>
+            <p className={styles.eyebrow}>HELLO, I’M</p>
+            <h1>Rufaidah <span>Ahmad</span></h1>
+            <p className={styles.herotext}>I build modern and responsive websites using<br/> React, Next.js, TypeScript and more.</p>
+            <div className={styles.heroButtons}>
+              <a href="#projects" className={styles.primarybutton}> View My Work →</a>
+              <a href="/projects/Rufaidah_Ahmed_Shawky_International_CV-1.pdf" download className={styles.secondarybutton}>↓ &nbsp; Download CV</a>
+            </div>
+            
+            <div className={styles.socialLinks}>
+              <a href="https://github.com/rufaidahahmad452-eng" target="_blank" rel="noreferrer" aria-label="GitHub"> <FaGithub /></a>
+              <a href="https://www.linkedin.com/in/rufaidah-ahmed-a77373309/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+               <a href="mailto:rufaidahahmad452@gmail.com" aria-label="Email"> <Mail/> </a>
+            </div>
+          </div>
         </div>
-        </div>
-        
-      </section>
+      </section>  
+
       <section id="about" className={styles.about}>
         <div className={styles.aboutleft}>
           <p className={styles.sectionlabel}>ABOUT ME</p>
@@ -67,6 +76,7 @@ export default function Home() {
       </section>
       <Skills/>
       <Projects/>
+      <Currently/>
       <Contact/>
     </main>
   )

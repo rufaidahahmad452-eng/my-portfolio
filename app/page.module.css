@@ -27,92 +27,135 @@
     color: #6d5b97;
 }
 .hero {
-    min-height: auto;
-    height: 550px;
-
-    padding: 60px 8%;
+    min-height: 430px;
+    padding: 55px 8%;
+    background: #f8f8fb;
 
     display: flex;
     align-items: center;
-
-    background: #f8f8fb;
 }
+
+.heroContent {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.heroText {
+    max-width: 650px;
+}
+
 .eyebrow {
-    margin-bottom: 20px;
+    margin: 0 0 14px;
+
     color: #7566a8;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 3px;
 }
+
 .hero h1 {
     margin: 0;
-    font-size: clamp(55px, 8vw, 90px);
+
+    color: #17172f;
+    font-size: clamp(55px, 7vw, 82px);
     line-height: 0.95;
     letter-spacing: -4px;
-    color: #17172f;
 }
-.hero h1 span{
+
+.hero h1 span {
     display: block;
     color: #7566a8;
 }
-.hero h2 {
-    margin: 30px 0 15px;
-    font-size: 28px;
-    font-weight: 600;
-    color: #17172f;
-}
+
 .herotext {
-    max-width: 550px;
+    max-width: 540px;
+    margin: 20px 0 0;
+
     color: #666675;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.7;
 }
-.herocontent {
-    max-width: 650px;
-    width: 100%;
-}
 
-.herobutton {
+/* BUTTONS */
+
+.heroButtons {
     display: flex;
     align-items: center;
-    gap: 14px;
-    margin-top: 24px;
+    gap: 18px;
+
+    margin-top: 22px;
 }
-.primarybutton , .secondarybutton {
+
+.primarybutton,
+.secondarybutton {
+    height: 42px;
+    padding: 0 20px;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    min-width: 140px;
-    height: 40px;
-    padding: 0 24px;
-
-    border-radius: 6px;
+    border-radius: 7px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-.primarybutton {
-    background: #7566a8;
-    color: white;
-    border: 1px solid #5b4b7d;
-}
-.primarybutton:hover {
-    background: #4d406b;
-    border-color: #4d406b;
-    transform: translateY(-2px);
-}
-.secondarybutton {
-    background: white;
-    border: 1px solid #5b4b7d;
-}
-.secondarybutton:hover {
-    background: #4d406b;
-    border-color: #4d406b;
-    color: white;
-    transform: translateY(-2px);
 
+    font-size: 12px;
+    font-weight: 600;
+
+    white-space: nowrap;
+    transition: 0.25s ease;
+}
+
+.primarybutton {
+    background: #6d50b5;
+    color: white;
+    border: 1px solid #6d50b5;
+}
+
+.primarybutton:hover {
+    background: #59409b;
+    transform: translateY(-2px);
+}
+
+.secondarybutton {
+    background: transparent;
+    color: #3d315c;
+    border: 1px solid #a69bbd;
+}
+
+.secondarybutton:hover {
+    background: white;
+    color: #6d50b5;
+    border-color: #6d50b5;
+    transform: translateY(-2px);
+}
+
+/* SOCIAL LINKS */
+
+.socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    margin-top: 18px;
+}
+
+.socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #625486;
+    font-size: 19px;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+.socialLinks a:hover {
+    color: #6d50b5;
+    transform: translateY(-2px);
 }
 
 .about {
@@ -199,38 +242,62 @@
     font-size: 12px;
   }
 
-  .hero {
-    min-height: auto;
-    padding: 60px 6%;
-  }
+   .hero {
+        min-height: 430px;
+        padding: 40px 6%;
+    }
 
-  .herocontact {
-    max-width: 100%;
-  }
+    .heroContent {
+        width: 100%;
+    }
 
-  .hero h1 {
-    font-size: 52px;
-    letter-spacing: -2px;
-  }
+    .heroText {
+        max-width: 100%;
+    }
 
-  .hero h2 {
-    font-size: 23px;
-    margin-top: 25px;
-  }
+    .eyebrow {
+        margin-bottom: 10px;
+        font-size: 9px;
+        letter-spacing: 2.5px;
+    }
 
-  .herotext {
-    font-size: 15px;
-  }
+    .hero h1 {
+        font-size: 48px;
+        letter-spacing: -2.5px;
+    }
 
-  .herobutton {
-    flex-wrap: wrap;
-  }
+    .herotext {
+        margin-top: 15px;
+        font-size: 13px;
+        line-height: 1.6;
+    }
 
-  .primarybutton,
-  .secondarybutton {
-    min-width: 120px;
-    padding: 0 18px;
-  }
+    .heroButtons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+
+        margin-top: 20px;
+    }
+
+    .primarybutton,
+    .secondarybutton {
+        height: 38px;
+        padding: 0 13px;
+
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .socialLinks {
+        gap: 15px;
+        margin-top: 17px;
+    }
+
+    .socialLinks a {
+        font-size: 17px;
+    }
 
   .about {
     grid-template-columns: 1fr;

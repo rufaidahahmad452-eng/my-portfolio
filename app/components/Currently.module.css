@@ -1,0 +1,101 @@
+
+.learning {
+    padding: 35px 8%;
+    background: #f8f8fb;
+}
+
+.learningContent {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.sectionLabel {
+    margin: 0 0 10px;
+    color: #7566a8;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title {
+    margin: 0 0 18px;
+    color: #17172f;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags span {
+    padding: 7px 14px;
+    border: 1px solid #dddde7;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #666675;
+    font-size: 11px;
+}
+
+.githubCard {
+    padding: 20px;
+
+    background: #ffffff;
+    border: 1px solid #e2e2eb;
+    border-radius: 10px;
+}
+
+.githubCard h3 {
+    margin: 0 0 7px;
+    color: #292942;
+    font-size: 15px;
+}
+
+.githubCard p {
+    margin: 0 0 15px;
+    color: #777789;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.githubCard a {
+    display: inline-block;
+    padding: 7px 12px;
+    border: 1px solid #cfcddd;
+    border-radius: 15px;
+    color: #5b4b7d;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.githubCard a:hover {
+    background: #7566a8;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .learning {
+        padding: 40px 6%;
+    }
+
+    .learningContent {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .githubCard {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
