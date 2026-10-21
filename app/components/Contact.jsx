@@ -15,11 +15,11 @@ export default function Contact() {
                 </div>
 
                 <div className={styles.contactLink}>
-                    <a href="mailto:rufaidahahmad452@gmail.com" className={styles.contactitem}>
+                    <a href="mailto:rufaid4haed@gmail.com" className={styles.contactitem}>
                         <Mail className={styles.icon}/>
                         <div>
                             <span>Email</span>
-                            <p>rufaidahahmad452@gmail.com</p>
+                            <p>rufaid4haed@gmail.com</p>
                         </div>
                     </a>
 

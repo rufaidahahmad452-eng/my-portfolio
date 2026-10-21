@@ -26,13 +26,13 @@ export default function Home() {
             <p className={styles.herotext}>I build modern and responsive websites using<br/> React, Next.js, TypeScript and more.</p>
             <div className={styles.heroButtons}>
               <a href="#projects" className={styles.primarybutton}> View My Work →</a>
-              <a href="/projects/Rufaidah_Ahmed_Shawky_International_CV-1.pdf" download className={styles.secondarybutton}>↓ &nbsp; Download CV</a>
+              <a href="/projects/Rufaidah_Ahmed_Shawky-CV" download className={styles.secondarybutton}>↓ &nbsp; Download CV</a>
             </div>
             
             <div className={styles.socialLinks}>
               <a href="https://github.com/rufaidahahmad452-eng" target="_blank" rel="noreferrer" aria-label="GitHub"> <FaGithub /></a>
               <a href="https://www.linkedin.com/in/rufaidah-ahmed-a77373309/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-               <a href="mailto:rufaidahahmad452@gmail.com" aria-label="Email"> <Mail/> </a>
+               <a href="mailto:rufaid4haed@gmail.com" aria-label="Email"> <Mail/> </a>
             </div>
           </div>
         </div>
