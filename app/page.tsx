@@ -32,7 +32,7 @@ export default function Home() {
             <div className={styles.socialLinks}>
               <a href="https://github.com/rufaidahahmad452-eng" target="_blank" rel="noreferrer" aria-label="GitHub"> <FaGithub /></a>
               <a href="https://www.linkedin.com/in/rufaidah-ahmed-a77373309/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-               <a href="mailto:rufaid4haed@gmail.com" aria-label="Email"> <Mail/> </a>
+               <a href="mailto:rufaid4hahmed@gmail.com" aria-label="Email"> <Mail/> </a>
             </div>
           </div>
         </div>
